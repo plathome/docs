@@ -1,5 +1,5 @@
 # Quick Start
-
+[Quick Start](https://github.com/plathome/docs/wiki/Quick-Start)
 
 # Next Step
 

@@ -88,7 +88,7 @@ In case you set DHCP at IP address setting, you need to confirm IP address with 
 
 ## Next Step
 
-* [How to get BLE beacon data]()
+* [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
 * [Hands-on to create custom handler]()
 
 ## Reference

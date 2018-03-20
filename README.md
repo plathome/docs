@@ -1,6 +1,6 @@
 # Document
-[Quick Start](/doc_source/QuickStart.md)  
-[How to get BLE beacon data](/doc_source/HowToGetBLEBeaconData.md)  
+[Quick Start](/doc_source/vx2/QuickStart.md)  
+[How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)  
 
 # Note
 If you have any questions or feedback, please feel free to create issues and let us know.  

@@ -1,6 +1,8 @@
 # Document
 [Quick Start](/doc_source/vx2/QuickStart.md)  
+[How to use Node-RED](/doc_source/vx2/HowToUseNodered.md)  
 [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)  
+[How to create custom PD-Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)  
 
 # Note
 If you have any questions or feedback, please feel free to create issues and let us know.  

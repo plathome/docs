@@ -1,10 +1,10 @@
 # Quick Start
+
 ## Requirements
 * Web browser  
 Google Chrome or Firefox  
 * serial connection application  
 * SSH client  
-
 
 ## Preparation
 connect AC adapter and power on automatically  
@@ -13,8 +13,7 @@ connect AC adapter and power on automatically
 1. Connect with the following information  
 SSID : iotfamily_***SERIAL_NUMBER***  
 Password : openblocks  
-
-    ***SERIAL_NUMBER*** is on back of the body.
+***SERIAL_NUMBER*** is on back of the body.
 
 1. Access with Web browser  
     HTTPS : https://192.168.254.254:4430  
@@ -60,6 +59,12 @@ Reboot for applying settings.
     1. click OK on pop up  
 ![restart3](/image/webui/restart3.png)  
 
+1. Login  
+input Username and Password, and then, click Login button  
+![login](/image/webui/login.png)  
+transit to dashboard screen  
+![dashboard](/image/webui/dashboard.png)  
+
 ## SSH settings
 ### enable SSH connection  
 In case you use SSH connection, you need to enable SSH connection.  
@@ -89,7 +94,7 @@ In case you set DHCP at IP address setting, you need to confirm IP address with 
 ## Next Step
 
 * [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
-* [Hands-on to create custom handler]()
+* [How to create custom PD-Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)
 
 ## Reference
 * [OpenBlocks IoT Web UI Setup Guide]()

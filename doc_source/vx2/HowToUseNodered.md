@@ -3,10 +3,9 @@
 ## Preparation
 * [Quick Start](/doc_source/vx2/QuickStart.md)  
 
-1. Install IoT data control and Node-RED Enhancement
+1. Install Node-RED Enhancement
     1. Move to [Maintenance] -> [Enhancements] tab  
-    ![maintenance_enhancements](/image/webui/maintenance_enhancements.png)  
-    1. Select **IoT data control** and click Execution button  
+    ![maintenance_enhancements_nodered](/image/webui/maintenance_enhancements_nodered.png)  
     1. Select **Node-RED** and click Execution button  
     1. Reboot   
 
@@ -15,7 +14,8 @@
     Select **Enable** on Filter open Settings -> Node-RED  
     ![system_filter_nodered](/image/webui/system_filter_nodered.png)  
     1. Move to [Service] -> [Basic] tab and click **Node-RED** Link  
-    Select **To be use** on Node-RED -> Setting use  
+    Select **Enable** on Node-RED -> Use or not  
+    ![nodered_nodered](/image/webui/nodered_nodered.png)  
     1. Click **Save** button on Operation  
     1. Click **Link** button on Operation  
     transit to Node-RED screen  

@@ -8,13 +8,6 @@
 Development Language : ***Node.js***  
 Target Device : ***BLE beacon***  
 
-### What is PD-Handler ?
-* Get data from Devices
-* Control Devices
-
-### What is PD-Repeater ?
-* Send data to Cloud
-
 ### Point for creating PD-Handler
 For creating custom PD-Handler, only 3 steps are necessary.
 1. Get data from devices
@@ -32,22 +25,23 @@ For creating custom PD-Handler, only 3 steps are necessary.
     ![basic_udr_after_settings](/image/webui/basic_udr_after_settings.png)
 1. IoT Data settings  
     1. Move to [IoT Data] -> [App settings] tab  
-    1. Check **The default use application mode display** on Application Start-up control  
-    1. Select **To be use** on Default Application Start-up control -> **PD Repeater**  
+    1. Check **Display the default application start-up control settings menu** on Application Start-up control  
+    1. Select **Enable** on Default Application Start-up control -> **PD Repeater**  
     Select **Disable** on the others
-    1. Select **To be use** on Application Start-up control -> **PD Repeater**  
+    1. Select **Enable** on Application Start-up control -> **PD Repeater**  
     Select **Disable** on the others
     1. Click **Save** button on Operation  
     ![iotdata_app_only_repeater](/image/webui/iotdata_app_only_repeater.png)
-    1. Move to [Tx/Rx setting] tab  
-    1. Select **To be use** on Tx/Rx setting -> **UNIX domain socket(lsocket)**  
+    1. Move to [Tx/Rx settings] tab  
+    1. Select **Enable** on Tx/Rx settings -> **UNIX domain socket(lsocket)**  
     1. Edit the value of **Interval[sec]**  
     60 -> 0  
-    1. Select **To be use** on Device setting(user definition)
+    1. Select **Enable** on Device setting(user definition)
     1. Check **lsocket** on Device setting(user definition) -> Tx/Rx setting
     1. Click **Save** button on Operation  
     ![iotdata_txrx_lsocket_userdev](/image/webui/iotdata_txrx_lsocket_userdev.png)
 1. Node-RED settings  
+    1. Move to [Node-RED] tab and click **Link** button on Operation  
     1. Drug and drop **ipc** node from **input** to flowsheet  
     ![nodered_ipc](/image/webui/nodered_ipc.png)  
     1. Double click **ipc** node  

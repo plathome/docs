@@ -7,7 +7,7 @@ Google Chrome or Firefox
 * SSH client  
 
 ## Preparation
-connect AC adapter and power on automatically  
+Connect AC adapter and power on automatically  
 
 ### Connection with Wireless network  
 1. Connect with the following information  
@@ -52,15 +52,17 @@ Set Wireless LAN and/or Ethernet you use.
 
 1. Reboot  
 Reboot for applying settings.  
-    1. click restart  
+    1. Click restart on the upper red line  
 ![restart1](/image/webui/restart1.png)  
-    1. push Reboot Run button  
+    1. Click Run button on Reboot  
 ![restart2](/image/webui/restart2.png)  
-    1. click OK on pop up  
-![restart3](/image/webui/restart3.png)  
+    1. Click Run button  
+![restart2](/image/webui/restart3.png)  
+    1. Click OK on pop up  
+![restart3](/image/webui/restart4.png)  
 
 1. Login  
-input Username and Password, and then, click Login button  
+Input Username and Password, and then, click Login button  
 ![login](/image/webui/login.png)  
 transit to dashboard screen  
 ![dashboard](/image/webui/dashboard.png)  

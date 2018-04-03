@@ -33,6 +33,7 @@ PD Handler BLE C -> PD Repeater -> Node-RED
         1. Select **IoT data control** and click Execution button  
         1. Reboot   
     1. App settings
+        1. Login on Web UI
         1. Move to [Service] -> [Basic] tab and click **IoT Data** Link  
         ![service_basic_iot_nodered](/image/webui/service_basic_iot_nodered.png)  
         transit to below screen  

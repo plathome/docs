@@ -58,6 +58,7 @@ For creating custom PD-Handler, only 3 steps are necessary.
 ## Create custom PD-Handler
 1. Preparation
 ```
+apt install git  
 git clone https://github.com/plathome/custom-pd-handler-for-ble-beacon-nodejs.git
 cd custom-pd-handler-for-ble-beacon-nodejs
 npm install

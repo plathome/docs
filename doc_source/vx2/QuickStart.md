@@ -61,25 +61,24 @@ Reboot for applying settings.
     1. Click OK on pop up  
 ![restart3](/image/webui/restart4.png)  
 
-1. Login  
-Input Username and Password, and then, click Login button  
+## Login  
+In case of setting as DHCP client, you need to confirm IP address with serial port connection before login on Web UI or SSH connection.  
+In addition, in case of using Wireless LAN, you also need to change Wireless connection settings of your PC.  
+
+### Login on Web UI  
+1. Access with Web browser  
+    HTTPS : https://[IP address]:4430  
+    HTTP : http://[IP address]:880  
+1. Input Username and Password, and then, click Login button  
 ![login](/image/webui/login.png)  
 transit to dashboard screen  
 ![dashboard](/image/webui/dashboard.png)  
 
-## SSH settings
-### enable SSH connection  
-In case you use SSH connection, you need to enable SSH connection.  
-[System] -> [Filter] tab  
-![filter](/image/webui/filter.png)  
-Check "Enable open setting of filter after reboot too.", if you want to enable SSH connection even after rebooting.  
-
-## Login  
-### Login information  
+### Login information for serial port connection or SSH connection  
 Login : root  
-Password : 0BSI0T 
+Password : 0BSI0T  
 
-### serial port connection  
+#### Serial port connection  
 1. Connect with USB console cable  
 
 1. Setting serial connection as following  
@@ -88,10 +87,20 @@ Data length : 8bits
 Parity : None  
 Stop : 1bit  
 
-### SSH connection  
-#### connect with SSH client  
-In case you set DHCP at IP address setting, you need to confirm IP address with serial port connection before SSH connection.  
+1. Connect with serial connection client  
 
+#### SSH connection  
+1. SSH settings  
+In case you use SSH connection, you need to enable SSH connection.  
+[System] -> [Filter] tab  
+![filter](/image/webui/filter.png)  
+Check "Enable open setting of filter after reboot too.", if you want to enable SSH connection even after rebooting.  
+
+1. Connect with SSH client  
+
+## Reset
+1. Connect with serial client and reboot  
+1. Select **OBS IoT VX - WebUI init boot** on GRUB menu  
 
 ## Next Step
 

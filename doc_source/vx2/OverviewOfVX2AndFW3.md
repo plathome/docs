@@ -4,7 +4,7 @@
 * CPU : 1.33GHz Dual-Core  
 * Memory : **2GB**  
 * STORAGE : **32GB**  
-* Gigabit Ethernet : **2pors**  
+* Gigabit Ethernet : **2ports**  
 
 ## New Functions of FW3.x  
 ![fw3_architecture_s](/image/webui/fw3_architecture_s.png)

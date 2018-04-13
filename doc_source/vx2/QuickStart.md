@@ -105,7 +105,7 @@ Check "Enable open setting of filter after reboot too.", if you want to enable S
 ## Next Step
 
 * [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
-* [How to create custom PD-Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)
+* [How to create custom PD Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)
 
 ## Reference
 * [OpenBlocks IoT Web UI Setup Guide]()

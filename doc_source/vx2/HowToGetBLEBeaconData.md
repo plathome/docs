@@ -37,8 +37,6 @@ PD Handler BLE C -> PD Repeater -> Node-RED
         1. Move to [Service] -> [Basic] tab and click **IoT Data** Link  
         ![service_basic_iot_nodered](/image/webui/service_basic_iot_nodered.png)  
         transit to below screen  
-        ![iot_data_app_settings_default](/image/webui/iot_data_app_settings_default.png)  
-        1. Check **The default use application mode display** on Application Start-up control  
         ![iot_data_app_settings_check_default](/image/webui/iot_data_app_settings_check_default.png)  
         1. Select **Enable** on Default Application Start-up control -> **PD Repeater**  
         1. Select **Enable** on Default Application Start-up control -> **PD Handler BLE**  

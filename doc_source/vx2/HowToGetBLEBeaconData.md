@@ -77,4 +77,5 @@ PD Handler BLE C -> PD Repeater -> Node-RED
     If successful, JSON data will be displayed on **debug** tab  
 
 ## Reference
-* [OpenBlocks IoT Web UI Setup Guide]()
+* [OpenBlocks IoT Family WEB UI Setup Guide](/docs/3.3/OpenBlocks_WEBUI_Guide_v3.3.0_Eng_20181206.pdf)
+* [OpenBlocks IoT Family Data Handling Guide](./OpenBlocks_iot_Data_Handling_Guide_v3.3.0_Eng_20181129.pdf)

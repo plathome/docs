@@ -23,11 +23,11 @@ Password : openblocks
 1. Connect with ethernet cable  
 
 1. Set IP address to client as following  
-192.168.253.0/24(except 192.168.253.254)  
+169.254.0.0/24 (except 169.254.0.200).  
 
 1. Access with Web browser  
-    HTTPS : https://192.168.253.254:4430  
-    HTTP : http://192.168.253.254:880  
+    HTTPS : https://169.254.0.200:4430  
+    HTTP : http://169.254.0.200:880  
 
 
 ## Initial Settings
@@ -104,8 +104,9 @@ Check "Enable open setting of filter after reboot too.", if you want to enable S
 
 ## Next Step
 
+* [How to install an extension packages](/doc_source/vx2/HowToInstallExtensionPackages.md)  
 * [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
 * [How to create custom PD Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)
 
 ## Reference
-* [OpenBlocks IoT Web UI Setup Guide]()
+* [OpenBlocks IoT Family WEB UI Setup Guide](/docs/3.3/OpenBlocks_WEBUI_Guide_v3.3.0_Eng_20181206.pdf)

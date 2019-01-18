@@ -6,21 +6,21 @@ Data flow is below:
 PD Handler BLE C -> PD Repeater -> Node-RED
 
 ## Preparation
-* [Quick Start](/doc_source/vx2/QuickStart.md)  
+* [Get Started](/doc_source/vx2/GetStarted.md)  
 * [How To Use Node-RED](/doc_source/vx2/HowToUseNodered.md)  
 
 ## Settings
 1. Bluetooth settings  
-    1. Move to [Service] -> [Basic] tab  
+    1. Move to **[Service] -> [Basic]** tab  
     Click **Basic functions** Link  
     ![service_basic](/image/webui/service_basic.png)  
     transit to below screen  
     Check if **Enable** is selected  
     ![basic_bt_if](/image/webui/basic_bt_if.png)  
-    Check if the hci is **up** on the [State] tab  
+    Check if the hci is **up** on the **[State]** tab  
     ![basic_state](/image/webui/basic_state.png)  
     1. Check Bluetooth HCI  
-    Move to [BLE registration] tab and click BLE device detection button  
+    Move to **[BLE registration]** tab and click **BLE device detection** button  
     ![basic_ble_registration](/image/webui/basic_ble_registration.png)  
     After detection time, transit to below screen  
     If devices are displayed as below, Bluetooth HCI works properly  
@@ -28,26 +28,27 @@ PD Handler BLE C -> PD Repeater -> Node-RED
 
 1. IoT data control settings
     1. Install IoT data control Enhancement
-        1. Move to [Maintenance] -> [Enhancements] tab  
+        1. Move to **[Maintenance] -> [Enhancements]** tab  
         ![maintenance_enhancements_iot_data](/image/webui/maintenance_enhancements_iot_data.png)  
-        1. Select **IoT data control** and click Execution button  
+        1. Select **IoT data control** and click **Execution** button  
         1. Reboot   
+        * See also [Install Extension Packages](/doc_source/vx2/InstallExtensionPackages.md)
     1. App settings
         1. Login on Web UI
-        1. Move to [Service] -> [Basic] tab and click **IoT Data** Link  
+        1. Move to **[Service] -> [Basic]** tab and click **IoT Data** Link  
         ![service_basic_iot_nodered](/image/webui/service_basic_iot_nodered.png)  
         transit to below screen  
         ![iot_data_app_settings_check_default](/image/webui/iot_data_app_settings_check_default.png)  
-        1. Select **Enable** on Default Application Start-up control -> **PD Repeater**  
-        1. Select **Enable** on Default Application Start-up control -> **PD Handler BLE**  
-        1. Select **Enable** on Application Start-up control -> **PD Repeater**  
-        1. Select **Enable** on Application Start-up control -> **PD Handler BLE**  
+        1. Select **Enable** on **Default Application Start-up control** -> **PD Repeater**  
+        1. Select **Enable** on **Default Application Start-up control** -> **PD Handler BLE**  
+        1. Select **Enable** on **Application Start-up control** -> **PD Repeater**  
+        1. Select **Enable** on **Application Start-up control** -> **PD Handler BLE**  
         ![iot_data_app_settings_repeater_handler_ble](/image/webui/iot_data_app_settings_repeater_handler_ble.png)  
         1. Click **Save** button on Operation  
     1. Tx/Rx settings
-        1. Move to [IoT data] -> [Tx/Rx setting] tab  
+        1. Move to **[IoT data] -> [Tx/Rx setting]** tab  
         ![iot_data_tx_rx_settings](/image/webui/iot_data_tx_rx_settings.png)  
-        1. Select **Enable** on Tx/Rx setting -> **UNIX domain socket(lsocket)**  
+        1. Select **Enable** on **Tx/Rx setting** -> **UNIX domain socket(lsocket)**
         ![iot_data_tx_rx_settings_lsocket](/image/webui/iot_data_tx_rx_settings_lsocket.png)  
         1. Edit the value of **Interval[sec]**  
         60 -> 0  
@@ -55,7 +56,7 @@ PD Handler BLE C -> PD Repeater -> Node-RED
         ![iot_data_tx_rx_settings_beacon](/image/webui/iot_data_tx_rx_settings_beacon.png)  
         1. Edit the value of **Duplication control time interval[msec]**  
         60000 -> 0  
-        1. Check **lsocket** on Beacon transmission settings -> Tx/Rx setting
+        1. Check **lsocket** on **Tx/Rx setting** -> **Beacon transmission settings**
         ![iot_data_tx_rx_settings_device](/image/webui/iot_data_tx_rx_settings_device.png)  
         1. Click **Save** button on Operation  
 
@@ -78,4 +79,5 @@ PD Handler BLE C -> PD Repeater -> Node-RED
 
 ## Reference
 * [OpenBlocks IoT Family WEB UI Setup Guide](/docs/3.3/OpenBlocks_WEBUI_Guide_v3.3.0_Eng_20181206.pdf)
-* [OpenBlocks IoT Family Data Handling Guide](./OpenBlocks_iot_Data_Handling_Guide_v3.3.0_Eng_20181129.pdf)
+* [OpenBlocks IoT Family Data Handling Guide](/docs/3.3/OpenBlocks_iot_Data_Handling_Guide_v3.3.0_Eng_20181129.pdf)
+* [OpenBlocks IoT Family Node-RED Starter Guid](/docs/3.3/OpenBlocks_iot_NodeRED_starter_Guide_v3.3.0_Eng_20181210.pdf)

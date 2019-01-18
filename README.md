@@ -1,6 +1,6 @@
 # Documents
-* [Quick Start](/doc_source/vx2/QuickStart.md)
-* [How to install extension packages](/doc_source/vx2/HowToInstallExtensionPackages.md)
+* [Get Started](/doc_source/vx2/GetStarted.md)
+* [Install extension packages](/doc_source/vx2/InstallExtensionPackages.md)
 * [How to use Node-RED](/doc_source/vx2/HowToUseNodered.md)
 * [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
 * [Overview Of VX2 And FW3.x](/doc_source/vx2/OverviewOfVX2AndFW3.md)

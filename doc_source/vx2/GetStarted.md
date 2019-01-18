@@ -1,4 +1,4 @@
-# Quick Start
+# Get Started
 
 ## Requirements
 * Web browser  
@@ -52,13 +52,13 @@ Set Wireless LAN and/or Ethernet you use.
 
 1. Reboot  
 Reboot for applying settings.  
-    1. Click restart on the upper red line  
+    1. Click [restart] on the upper red line  
 ![restart1](/image/webui/restart1.png)  
-    1. Click Run button on Reboot  
+    1. Click [Run] button on Reboot  
 ![restart2](/image/webui/restart2.png)  
-    1. Click Run button  
+    1. Click [Run] button  
 ![restart2](/image/webui/restart3.png)  
-    1. Click OK on pop up  
+    1. Click [OK] on pop up  
 ![restart3](/image/webui/restart4.png)  
 
 ## Login  
@@ -104,7 +104,7 @@ Check "Enable open setting of filter after reboot too.", if you want to enable S
 
 ## Next Step
 
-* [How to install an extension packages](/doc_source/vx2/HowToInstallExtensionPackages.md)  
+* [Install extension packages](/doc_source/vx2/InstallExtensionPackages.md)  
 * [How to get BLE beacon data](/doc_source/vx2/HowToGetBLEBeaconData.md)
 * [How to create custom PD Handler with Node.js](/doc_source/vx2/HowToCreateCustomPdHandlerWithNodejs.md)
 

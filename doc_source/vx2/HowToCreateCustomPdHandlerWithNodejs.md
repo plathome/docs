@@ -1,7 +1,7 @@
 # How To Create Custom PD Handler With Node.js
 
 ## Preparation
-* [Quick Start](/doc_source/vx2/QuickStart.md)
+* [Get Started](/doc_source/vx2/GetStarted.md)
 * [How To Use Node-RED](/doc_source/vx2/HowToUseNodered.md)  
 * [Overview And Settings For Creating Custom Handler](/doc_source/vx2/OverviewAndSettingsForCreatingCustomHandler.md)  
 

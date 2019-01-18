@@ -1,33 +1,31 @@
-# How to install an extension packages
-Immediately after shipment,  
-OpenBlocks IoT Family is installed only with software to set up network settings, etc.  
-If there is a need to apply extensions for use as an IoT Gateway,  
-it is possible to add supported packages using the [Maintenance]-[Enhancements] tab.
+# Install extension packages
+Immediately after shipment,  OpenBlocks IoT Family is installed only with software to set up network settings, etc.  
+If there is a need to apply extensions for use as an IoT Gateway, it is possible to add supported packages using the **[Maintenance] -> [Enhancements]** tab.
 
 ## Instruction
 
-### 1. Open Enhancements menu  
-Click [Maintenance]-[Enhancements] tab to open Enhancements menu
+1. Open Enhancements menu  
+Move to **[Maintenance] -> [Enhancements]** tab to open Enhancements menu
 ![Extensions1](/image/webui/extensions1.png)
 
-### 2. Choose a package to install  
-Choose a package to install from pull down menu and click the "Execution" button for installation.
+1. Choose a package to install  
+    1. Choose a package to install from **Function to add** pull down menu.
+    1. Click the **Execution** button for installation.
 ![Extensions2](/image/webui/extensions2.png)
-* To install software using this function, the unit must support an Internet environment.
-* If the network connected to the Internet is slow, installation of package may take some time.
+    * To install software using this function, the unit must support an Internet environment.
+    * If the network connected to the Internet is slow, installation of package may take some time.
 
-### 3. When click the Execution button
-When click the Execution button, a confirmation window will be displayed.  
-When the proper package is displayed, press the OK button to confirm selection.   
+1. When click the **Execution** button  
+When click the **Execution** button, a confirmation window will be displayed.  
+When the proper package is displayed, press the **OK** button to confirm selection.   
 During installation, it is not possible to choose buttons.
 ![Extensions3](/image/webui/extensions3.png)
-* After pressing the Execution button, a button to check the installation status will appear.  
-Clisk this button to check on the progress of installation.
+    * After pressing the **Execution** button, a button to check the installation status will appear.  
+      Clisk this button to check on the progress of installation.
 
-### 4. After installing
-Regardless of whether an installation has been successful or not,  
-a window will be displayed when the process is completed.  
-If installation has been a success, press the OK button to accept the message.  
+1. After installing  
+Regardless of whether an installation has been successful or not, a window will be displayed when the process is completed.  
+If installation has been a success, press the **OK** button to accept the message.  
 After installing an extension with this function, and as the system needs to be rebooted, restart the unit.
 ![Extensions3](/image/webui/extensions4.png)
 

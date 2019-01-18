@@ -34,11 +34,11 @@ Password : openblocks
 
 1. License Agreement  
 Scroll to the end of screen and read contents.  
-If you accept license, select [Agree].  
+If you accept license, select **Agree**.  
 ![License](/image/webui/license.png)
 
 1. Web UI Administrator Account Settings  
-Input username and password and click [Save].  
+Input username and password and click **Save**.  
 ![account](/image/webui/account.png)
 
 1. Network Settings  
@@ -52,13 +52,13 @@ Set Wireless LAN and/or Ethernet you use.
 
 1. Reboot  
 Reboot for applying settings.  
-    1. Click [restart] on the upper red line  
+    1. Click **restart** on the upper red line  
 ![restart1](/image/webui/restart1.png)  
-    1. Click [Run] button on Reboot  
+    1. Click **Run** button on Reboot  
 ![restart2](/image/webui/restart2.png)  
-    1. Click [Run] button  
+    1. Click **Run** button  
 ![restart2](/image/webui/restart3.png)  
-    1. Click [OK] on pop up  
+    1. Click **OK** on pop up  
 ![restart3](/image/webui/restart4.png)  
 
 ## Login  
@@ -92,9 +92,9 @@ Stop : 1bit
 #### SSH connection  
 1. SSH settings  
 In case you use SSH connection, you need to enable SSH connection.  
-[System] -> [Filter] tab  
+**[System] -> [Filter]** tab  
 ![filter](/image/webui/filter.png)  
-Check "Enable open setting of filter after reboot too.", if you want to enable SSH connection even after rebooting.  
+Check **Enable open setting of filter after reboot too.**, if you want to enable SSH connection even after rebooting.  
 
 1. Connect with SSH client  
 
